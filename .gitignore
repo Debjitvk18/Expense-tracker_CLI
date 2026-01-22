@@ -1,0 +1,45 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+
+# ======================
+# Virtual Environment
+# ======================
+venv/
+.env/
+
+# ======================
+# Database / Secrets
+# ======================
+.env
+*.db
+*.sqlite3
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# OS / Editor junk
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ======================
+# Test & Build Artifacts
+# ======================
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# ======================
+# App Runtime Data
+# ======================
+.expense_tracker/
